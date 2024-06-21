@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "library-webapp"
+version = "0.1.0"
+description = "Library Web app"
+authors = ["zengitronin <165465929+zengitronin@users.noreply.github.com>"]
+license = "LICENSE"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = {extras = ["all"], version = "^0.111.0"}
+sqlalchemy = "^2.0.31"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
