@@ -17,3 +17,12 @@ curl -X GET http://localhost:8000/authors/
 
 curl -X GET http://localhost:8000/books/
 ```
+
+
+## test
+
+```sh
+cd /path/to/library_webapp
+
+./tests/api_tests.sh
+```
